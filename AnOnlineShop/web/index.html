@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>  
+    <head>  
+        <title>Insert title here</title>  
+    </head>  
+    <body>  
+
+        <h1>Add New Book</h1>  
+        <form action="SaveServlet" method="POST">  
+            <table>  
+                <tr><td>Name: </td><td><input type="text" name="name"/></td></tr>  
+                <tr><td>Description: </td><td><input type="text" name="description"/></td></tr>  
+                <tr><td>Content: </td><td><input type="text" name="content"/></td></tr>  
+                <tr><td>Category:</td><td>  
+                        <select name="category" style="width:150px">  
+                            <option>KidBook</option>  
+                            <option>TechBook</option>  
+<!--                            <option>UK</option>  
+                            <option>Other</option>  -->
+                        </select>  
+                    </td></tr>  
+                <tr><td colspan="2"><input type="submit" value="Save Employee"/></td></tr>  
+            </table>  
+        </form>  
+
+        <br/>  
+        <a href="ViewServlet">view book</a>  
+
+    </body>  
+</html>  

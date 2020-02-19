@@ -44,6 +44,7 @@ public class MainServer {
             ar.add(client);
             thread.start();
             i++;
+            //System.out.println("hello");
             
         }
     }
